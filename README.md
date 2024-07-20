@@ -1,38 +1,23 @@
-### Prerequisites
+### CRM System with Django and MySQL
 
-1. Python and Django: Ensure you have Python installed on your system. You can install Django using pip:
-```python
-pip install django
-```
+This project is a Customer Relationship Management (CRM) system developed using Django and MySQL. The CRM system is designed to help businesses manage customer interactions and data efficiently, providing a powerful tool for enhancing customer relationships and streamlining business processes.
 
-2. Database: Decide on the database you want to use. By default, Django uses SQLite, but you can configure it to use other databases like PostgreSQL, MySQL, or Oracle.
+### Key Features
 
-3. Text Editor or IDE: Choose a code editor or integrated development environment (IDE) of your preference. Popular choices include Visual Studio Code, PyCharm, or Sublime Text.
+User Authentication: Secure login and registration system to manage user access.
+Customer Management: Add, update, and delete customer records with customizable fields.
+Contact Management: Track and manage interactions and communications with customers.
+Dashboard: Overview of important metrics and customer data in a user-friendly interface.
+Search and Filter: Advanced search and filtering capabilities to quickly locate customer information.
+Reporting: Generate and view detailed reports on customer interactions and other key metrics.
 
-### Setting Up Your Django Project
+### Technologies Used
 
-Open your terminal and run the following commands:
+Django: A high-level Python web framework that promotes rapid development and clean, pragmatic design.
+MySQL: A reliable and widely-used relational database management system for efficient data storage and retrieval.
+Bootstrap: Used for responsive and visually appealing front-end design to enhance user experience.
 
-```python
-django-admin startproject seproject
-cd seproject
-python manage.py startapp RecordApp
-```
-
-We've created a new project named "SE_Project" and an app named "RecordApp."
-
-### Application Registration: you need to configure in your settings.py file
-
-Make sure your app (myapp) is included in the INSTALLED_APPS list:
-
-```python
-INSTALLED_APPS = [
-    # ...
-    'myapp',
-]
-```
-
-Run the following commands to create the migrations and apply them:
+### Run the following commands to create the migrations and apply them:
 
 ```python
 python manage.py makemigrations
