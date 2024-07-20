@@ -18,8 +18,8 @@ pip install django
 Open your terminal and run the following commands:
 
 ```python
-django-admin startproject crudproject
-cd crudproject
+django-admin startproject seproject
+cd seproject
 python manage.py startapp RecordApp
 ```
 
