@@ -357,7 +357,7 @@ With everything set up, you can start your Django development server:
 python manage.py runserver
 ```
 
-Visit http://localhost:8000/ in your browser, and you should be able to create, read, update, and delete orders in your Django CRUD project using function-based views.
+Visit http://localhost:8000/ in your browser, and you should be able to create, read, update, and delete orders in your SE Project using function-based views.
 
-In this tutorial, you've learned how to create a Django CRUD project using function-based views. You can further enhance your project by adding features like authentication, pagination, or search functionality. Django's flexibility and extensive ecosystem make it a great choice
+In this tutorial, you've learned how to create a SE Project project using function-based views. You can further enhance your project by adding features like authentication, pagination, or search functionality. Django's flexibility and extensive ecosystem make it a great choice
 
