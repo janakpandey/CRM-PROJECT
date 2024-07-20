@@ -4,12 +4,12 @@ This project is a Customer Relationship Management (CRM) system developed using 
 
 ### Key Features
 
-User Authentication: Secure login and registration system to manage user access.
-Customer Management: Add, update, and delete customer records with customizable fields.
-Contact Management: Track and manage interactions and communications with customers.
-Dashboard: Overview of important metrics and customer data in a user-friendly interface.
-Search and Filter: Advanced search and filtering capabilities to quickly locate customer information.
-Reporting: Generate and view detailed reports on customer interactions and other key metrics.
+1. User Authentication: Secure login and registration system to manage user access.
+2. Customer Management: Add, update, and delete customer records with customizable fields.
+3. Contact Management: Track and manage interactions and communications with customers.
+4. Dashboard: Overview of important metrics and customer data in a user-friendly interface.
+5. Search and Filter: Advanced search and filtering capabilities to quickly locate customer information.
+6. Reporting: Generate and view detailed reports on customer interactions and other key metrics.
 
 ### Technologies Used
 
